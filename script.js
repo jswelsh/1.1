@@ -73,6 +73,7 @@ while (i < 100){
         i 
     )
 } */
+/* 
 console.log("type 9");
 let i = 0;
 while (i < 100){
@@ -80,4 +81,9 @@ while (i < 100){
     console.log(
         i % 15 ? i % 5 ? i % 3 ? i: 'Fizz' : 'Buzz' : 'FizzBuzz'
     )
+} 
+*/
+console.log("type 10");
+for (let i = 0; i < 100;){
+    console.log(++i % 15 ? i % 5 ? i % 3 ? i : 'Fizz' : 'Buzz' : 'FizzBuzz')
 }

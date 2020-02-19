@@ -25,8 +25,11 @@ for (let i = 0; i < 100;) {
     console.log((++i % 3 ? '':'Fizz') + (i % 5 ? '':'Buzz') || i)
 }  */
 
-console.log("type 4");
+/* console.log("type 4");
 for (let i = 0; i < 100;) 
     console.log( 
         (++i % 3 ? '':'Fizz') + (i % 5 ? '':'Buzz') || i
-        ) 
+        )  */
+
+console.log("type 5") 
+    for (i = 0; i < 100;) console.log( (++i % 3 ? '':'Fizz') + (i % 5 ? '':'Buzz') || i)
